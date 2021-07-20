@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4800169526A66DFD00960280 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800169426A66DFD00960280 /* Library.swift */; };
 		B3FB39AE2699273700A640A0 /* listAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB39AD2699273700A640A0 /* listAndDataApp.swift */; };
 		B3FB39B02699273700A640A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB39AF2699273700A640A0 /* ContentView.swift */; };
 		B3FB39B22699273900A640A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FB39B12699273900A640A0 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4800169426A66DFD00960280 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Library.swift; path = "../../../../Downloads/video-yssa-materials-versions-2.0/05-lists/Starter/ReadMe/ReadMe/Library.swift"; sourceTree = "<group>"; };
 		B3FB39AA2699273700A640A0 /* listAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FB39AD2699273700A640A0 /* listAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listAndDataApp.swift; sourceTree = "<group>"; };
 		B3FB39AF2699273700A640A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		B3FB39AC2699273700A640A0 /* listAndData */ = {
 			isa = PBXGroup;
 			children = (
+				4800169426A66DFD00960280 /* Library.swift */,
 				B3FB39AD2699273700A640A0 /* listAndDataApp.swift */,
 				B3FB39DA269928B400A640A0 /* Views */,
 				B3FB39B12699273900A640A0 /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 			files = (
 				B3FB39B02699273700A640A0 /* ContentView.swift in Sources */,
 				B3FB39AE2699273700A640A0 /* listAndDataApp.swift in Sources */,
+				4800169526A66DFD00960280 /* Library.swift in Sources */,
 				B3FB39D92699282300A640A0 /* Book.swift in Sources */,
 				B3FB39DE269928DC00A640A0 /* BookViews.swift in Sources */,
 			);
