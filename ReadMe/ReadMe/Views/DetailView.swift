@@ -25,11 +25,12 @@
 /// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
-
 import SwiftUI
+import PhotosUI.PHPicker
 
 struct DetailView: View {
   let book: Book
+	@State var showingImagePicker = false
 
   var body: some View {
     VStack(alignment: .leading) {
@@ -38,10 +39,28 @@ struct DetailView: View {
         titleFont: .title,
         authorFont: .title2
       )
-      Book.Image(title: book.title)
+			
+			VStack {
+				Book.Image(title: book.title)
+				
+				Button("Show Modal") {
+					showingImagePicker = true
+				}
+				.padding()
+			}
+			
       Spacer()
     }
     .padding()
+		.sheet(isPresented: $showingImagePicker) {
+			VStack {
+				Text("Modal View...")
+				
+				Button("Hide Modal") {
+					showingImagePicker = false
+				}
+			}
+		}
   }
 }
 

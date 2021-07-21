@@ -26,6 +26,8 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
+import class UIKit.UIImage
+
 struct Library {
   var sortedBooks: [Book] { booksCache }
 
@@ -43,4 +45,6 @@ struct Library {
     .init(title: "Drawing People", author: "Barbara Bradley"),
     .init(title: "What to Say When You Talk to Yourself", author: "Shad Helmstetter")
   ]
+	
+	var uiImages: [Book: UIImage] = [:]
 }
